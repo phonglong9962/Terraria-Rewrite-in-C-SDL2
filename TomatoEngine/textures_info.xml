@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+  <Info id="1" sprite="assets/NPC_1.png" w="30" h="24" io="0" il="2" mo="0" ml="2" jo="1" jl="1" ao="0" al="2"/>
+  <Info id="2" sprite="assets/NPC_2.png" w="36" h="22" io="0" il="2" mo="0" ml="2" jo="0" jl="2" ao="0" al="2"/>
+  <Info id="3" sprite="assets/NPC_3.png" w="36" h="46" io="0" il="2" mo="0" ml="2" jo="2" jl="1" ao="0" al="2"/>
+  <Info id="78" sprite="assets/NPC_78.png" w="38" h="54" io="0" il="1" mo="2" ml="14" jo="1" jl="1" ao="2" al="14"/>
+  <Info id="79" sprite="assets/NPC_79.png" w="38" h="54" io="0" il="1" mo="2" ml="14" jo="1" jl="1" ao="2" al="14"/>
+  <Info id="80" sprite="assets/NPC_80.png" w="38" h="54" io="0" il="1" mo="2" ml="14" jo="1" jl="1" ao="2" al="14"/>
+  <Info id="431" sprite="assets/NPC_431.png" w="86" h="66" io="0" il="2" mo="0" ml="2" jo="2" jl="1" ao="3" al="4"/>
+</DATA>

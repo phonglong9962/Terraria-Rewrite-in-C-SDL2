@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AssetsPool.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>Core\PugiXML</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldHandle.cpp">
+      <Filter>Core\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Core\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Core\State</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingState.cpp">
+      <Filter>Core\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHandle.cpp">
+      <Filter>Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GraphicsHandle.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Core\ECS\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementSystem.cpp">
+      <Filter>Core\ECS\System</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Core\ECS\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Core\World\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTrackingSystem.cpp">
+      <Filter>Core\ECS\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Core\ECS\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f0b23704-f127-4daf-b8c1-8b539c67d8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Graphics">
+      <UniqueIdentifier>{698320e2-6be4-484e-83cd-e4349b729003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Vector">
+      <UniqueIdentifier>{3e850e9d-9a6d-4a7a-b3ca-4981bb063ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{f4c6ea69-9ed7-4238-9c4c-bb85417f8239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Input">
+      <UniqueIdentifier>{9316d8db-6234-4ed0-96cb-82ce429d3f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PugiXML">
+      <UniqueIdentifier>{1a119852-aaaf-4d7b-9090-f73939cd9ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ECS">
+      <UniqueIdentifier>{e2e92799-56ca-45c9-bdf6-9c1b8d15222f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ECS\Component">
+      <UniqueIdentifier>{194d014d-a3d6-476e-9380-c9f4ff741fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\World">
+      <UniqueIdentifier>{052239be-7fd3-4cd4-a1d9-39fd3750cdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\State">
+      <UniqueIdentifier>{fea3b7bc-b86b-476d-b683-534a2189fb44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Player">
+      <UniqueIdentifier>{d99bb257-58f2-4fbb-b436-fe26b26292b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ECS\System">
+      <UniqueIdentifier>{0d967cc1-affa-4ae8-8071-07cac8516e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ECS\Entity">
+      <UniqueIdentifier>{3ffaf5b9-d719-4bdd-ada7-65e6c8588fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ECS\Distributor">
+      <UniqueIdentifier>{512c935a-d773-4a77-b128-2e7db9212e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\World\Tile">
+      <UniqueIdentifier>{ad52ad34-83ff-4308-91e5-28bfb04366bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\World\Chunk">
+      <UniqueIdentifier>{706d9eb0-8498-4f0a-a2ff-a003a34d1b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Camera">
+      <UniqueIdentifier>{8f113de6-6729-411f-ae5f-c5eb69b63f57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsHandle.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Core\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Core\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyInput.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetsPool.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="pugiconfig.hpp">
+      <Filter>Core\PugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml.hpp">
+      <Filter>Core\PugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInput.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldHandle.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Core\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Core\State</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingState.h">
+      <Filter>Core\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHandle.h">
+      <Filter>Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Core\State</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Core\ECS\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Core\ECS\Distributor</Filter>
+    </ClInclude>
+    <ClInclude Include="Distributor.h">
+      <Filter>Core\ECS\Distributor</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentManager.h">
+      <Filter>Core\ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentData.h">
+      <Filter>Core\ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>Core\ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Core\ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Core\ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureDetails.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Core\World\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Core\World\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Core\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="textures_info.xml" />
+  </ItemGroup>
+</Project>
